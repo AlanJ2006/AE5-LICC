@@ -10,6 +10,3 @@ def primelist(number):
             if x in numlist:
                 numlist.remove(x)
     return primelist
-
-n = int(input())
-print(primelist(n))
